@@ -10,9 +10,6 @@ from TwitchChannelPointsMiner.classes.entities.Bet import Strategy, BetSettings,
 from TwitchChannelPointsMiner.classes.entities.Streamer import Streamer, StreamerSettings
 
 
-environ['jmeno'] = "cerady"
-environ['heslo'] = "joJo22485258"
-
 twitch_miner = TwitchChannelPointsMiner(
     username= environ["jmeno"],  
     password= environ["heslo"],           # If no password will be provided, the script will ask interactively

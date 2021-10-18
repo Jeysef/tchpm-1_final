@@ -146,3 +146,7 @@ chromedriver*
 
 # Folders
 
+logs/*
+screenshots/*
+htmls/*
+analytics/*
