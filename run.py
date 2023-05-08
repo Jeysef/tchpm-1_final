@@ -69,5 +69,5 @@ twitch_miner.mine(
         
         "Herdyn"
     ],                                 # Array of streamers (order = priority)
-    followers=True                     # Automatic download the list of your followers (unable to set custom settings for you followers list)
+    followers=False                    # Automatic download the list of your followers (unable to set custom settings for you followers list)
 )
